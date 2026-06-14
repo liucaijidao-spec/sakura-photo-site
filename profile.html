@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile | Sakura Yoshida</title>
+    <link rel="icon" href="./img/material/icon.jpg">
+
+    <link rel="stylesheet" href="./css/destyle.css">
+    <link rel="stylesheet" href="./css/common/common.css">
+    <link rel="stylesheet" href="./css/page/profile.css">
+
+    <!-- js -->
+    <script src="./js/common.js" defer></script>
+
+    <!-- NotoSerifJP -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <!-- sns-icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- ogg -->
+    <link rel="stylesheet" href="https://use.typekit.net/ikj4gpm.css">
+</head>
+
+<body id="profile">
+    <header>
+        <div class="all-container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="dawn.html">DAWN</a></li>
+                    <li><a href="dusk.html">DUSK</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                </ul>
+            </nav>
+            <div class="letter">
+                <a href="contact.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 20 20">
+                        <g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+                            <path
+                                d="M17 4H3a.5.5 0 0 0-.5.5v11a.5.5 0 0 0 .5.5h14a.5.5 0 0 0 .5-.5v-11A.5.5 0 0 0 17 4M3.5 15V5h13v10z" />
+                            <path
+                                d="m17.324 4.88l-7.045 6a.5.5 0 0 1-.65-.001l-6.956-6A.5.5 0 0 1 3 4h14a.5.5 0 0 1 .324.88M15.642 5H4.345l5.612 4.841z" />
+                        </g>
+                    </svg>
+                    <p>CONTACT</p>
+                </a>
+            </div>
+        </div>
+
+    </header>
+
+    <button class="hmb js-hmb sp-show" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="hmb-menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="dawn.html">DAWN</a></li>
+                <li><a href="dusk.html">DUSK</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li class="contact"><a href="contact.html">CONTACT</a></li>
+
+                <li class="sns">
+                    <a href="https://www.instagram.com/_re_collect?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.threads.com/@_re_collect" aria-label="Threads">
+                        <i class="fa-brands fa-threads"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="top-btn">
+        <button class="page-top-btn">PAGE<br>TOP</button>
+    </div>
+
+    <main>
+        <div class="profile-bg">
+            <div class="all-container">
+                <div class="contents-container">
+                    <div class="box-title">
+                        <div class="title">
+                            <h2>Profile</h2>
+                            <p>プロフィール</p>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+
+                    <div class="inner">
+                        <section class="profile-main-text">
+                            <p class="name">吉田 さくら</p>
+                            <div class="wrap">
+                                <p class="typing">
+                                    この街で生きていて、<br>
+                                    ふと目に入ってくるような情景を撮影しています。<br class="none">
+                                    ほとんどの写真が八戸の日常の風景であり、<br class="none">
+                                    ”特別な景色”を写したものはありません。<br class="none">
+                                    それでも、何気なく目にしたときに、
+                                    自分の生きてきた街のことを思い起こすような、<br class="none">
+                                    そんなきっかけになることを願っています。
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="myphoto-bg">
+            <div class="all-container">
+                <div class="contents-container">
+
+                    <div class="photo-modal">
+                        <div class="modal-inner">
+                            <button class="js-modal-close">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+
+                            <p class="text">どちらの時間を旅しますか？</p>
+
+                            <div class="choice-box">
+                                <div class="choice-inner">
+                                    <a href="dawn.html">DAWN<span>－あけぼの－</span></a>
+                                </div>
+                                <div class="choice-item">or</div>
+                                <div class="choice-inner">
+                                    <a href="dusk.html">DUSK<span>－たそがれ－</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="top-btn-myphoto">
+                        <p>View More</p>
+                        <span class="arrow"></span>
+                    </div>
+
+                    <div class="box-title">
+                        <div class="title">
+                            <h2>MyPhoto</h2>
+                            <p>フォトギャラリー</p>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+
+                    <div class="inner">
+                        <div class="myphoto">
+                            <div class="content-box">
+                                <section class="gallery">
+                                    <div id="stalker"><span>HOVER</span></div>
+                                    <div class="gallery-inner">
+                                        <div class="column">
+                                            <img src="./img/1.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 200027.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 195940.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 195931.png" class="myphoto-fadein">
+                                        </div>
+
+                                        <div class="column">
+                                            <img src="./img/スクリーンショット 2025-12-17 195852.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 195909.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 195408.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 195400.png" class="myphoto-fadein">
+                                        </div>
+
+                                        <div class="column">
+                                            <img src="./img/スクリーンショット 2025-12-17 195802.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 195558.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 195408.png" class="myphoto-fadein">
+                                            <img src="./img/スクリーンショット 2025-12-17 195140.png" class="myphoto-fadein">
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-bg">
+            <div class="all-container">
+                <div class="contents-container">
+
+                    <div class="box-title">
+                        <div class="title">
+                            <h2>Event</h2>
+                            <p>イベントについて</p>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+
+                    <div class="inner">
+                        <section class="profile-timeline">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="border-deco-sp"></div>
+                                    <time class="timeline-date" datetime="2000-05-16">
+                                        2000.05.16
+                                    </time>
+                                    <h3>写真展<br class="br-sp">「ONCE-IN-A-LIFETIME」</h3>
+                                    <p class="text">
+                                        何は次第よほどその滅亡者という事の時から進んたです。
+                                        実に結果に盲従隊はいくらこのお尋ねうですなりにするてならですをは講義あるででしょから、
+                                        あいにくとはしたううた。個性に保つますのはいったい場合でざっとだたない。
+                                        もう岡田さんと増減教師だんだん赴任が曲げで本位そのかごそれか堕落がとしてお学習ましただでが、
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="border-sp"></div>
+
+                            <div class="timeline-item">
+                                <time class="timeline-date" datetime="2000-05-16">
+                                    2000.05.16
+                                </time>
+                                <h3>写真展「うみねこの唄」</h3>
+                                <p class="text">
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストテキストテキスト
+                                    テキストテキストテキストテキストキスト
+                                </p>
+                            </div>
+                            <div class="border-deco-sp"></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="all-container">
+                <a href="contact.html" class="btn">
+                    <p>お問い合わせはこちらから</p>
+                </a>
+            </div>
+
+            <div class="en-text">
+                <div class="inner">
+                    <p>Thank you for being here ― Born on April 30, 2004 ― I capture moments that quietly
+                        remain.
+                    </p>
+                    <p>Thank you for being here ― Born on April 30, 2004 ― I capture moments that quietly
+                        remain.
+                    </p>
+                </div>
+            </div>
+
+            <div class="all-container">
+                <footer>
+                    <div class="sns">
+                        <a
+                            href="https://www.instagram.com/_re_collect?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+                        <a href="https://www.threads.com/@_re_collect">Threads</a>
+                        <a href="https://x.com/_re_collect?s=20">X</a>
+                    </div>
+                    <p>©Yoshida Sakura. All rights reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const stalker = document.getElementById('stalker');
+        const box2 = document.querySelector('.myphoto-bg');
+
+        if (stalker && box2) {
+
+            box2.addEventListener('mouseenter', () => {
+                stalker.style.opacity = '1';
+            });
+
+            box2.addEventListener('mouseleave', () => {
+                stalker.style.opacity = '0';
+            });
+
+            box2.addEventListener('mousemove', (e) => {
+                stalker.style.left = e.clientX + 'px';
+                stalker.style.top = e.clientY + 'px';
+            });
+
+        }
+
+        // トップボタン
+        const button = document.querySelector('.page-top-btn');
+
+        button.addEventListener('click', () => {
+            window.scroll({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 1400) {
+                button.classList.add('is-active');
+            } else {
+                button.classList.remove('is-active');
+            }
+        });
+
+        //マイフォトモーダル
+        const btn = document.querySelector('.top-btn-myphoto');
+        const modal = document.querySelector('.photo-modal');
+        const closeBtn = document.querySelector('.js-modal-close');
+
+        btn.addEventListener('click', () => {
+            modal.classList.add('is-open');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            modal.classList.remove('is-open');
+        });
+
+        // マイフォトフェードイン
+        if (window.innerWidth <= 768) {
+
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('show');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                },
+                {
+                    threshold: 0.2
+                }
+            );
+
+            document
+                .querySelectorAll('.myphoto-fadein')
+                .forEach((item) => {
+                    observer.observe(item);
+                });
+        }
+    </script>
+</body>
+
+</html>
